@@ -1,5 +1,5 @@
 function count(list) {
-  if (list.length === 0) {
+  if (!list.length) {
     return 0;
   }
   return 1 + count(list.slice(1));

@@ -1,5 +1,5 @@
 function max(list) {
-  if (list.length == 2) {
+  if (list.length === 2) {
     return list[0] > list[1] ? list[0] : list[1];
   }
   subMax = max(list.slice(1));
